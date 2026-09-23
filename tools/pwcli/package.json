@@ -1,0 +1,8 @@
+{
+  "name": "x-ocr-pwcli",
+  "private": true,
+  "description": "Pinned playwright-cli used to drive the user's Chrome via the Playwright Extension",
+  "dependencies": {
+    "@playwright/cli": "0.1.21"
+  }
+}
