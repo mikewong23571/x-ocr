@@ -1,0 +1,8 @@
+#!/bin/zsh
+# Wrapper: drive the user's Chrome (Playwright Extension attach) via the pinned playwright-cli.
+# Usage: scripts/pw <playwright-cli command...>   e.g. scripts/pw goto https://x.com/home
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+set -a; source "$ROOT/.env.local"; set +a
+exec env PLAYWRIGHT_MCP_EXTENSION_TOKEN="$PLAYWRIGHT_MCP_EXTENSION_TOKEN" \
+  npx --prefix "$ROOT/tools/pwcli" playwright-cli -s="${PW_SESSION:-xocr}" "$@"
