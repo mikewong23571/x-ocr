@@ -1,0 +1,51 @@
+{
+ "exp": "exp005d_nano_v04_frozen",
+ "model": "yolo11n.pt",
+ "imgsz": 1280,
+ "epochs": 100,
+ "dataset": {
+  "n_images": 235,
+  "splits": {
+   "train": 174,
+   "val": 40,
+   "test": 21
+  }
+ },
+ "mAP50": 0.878991860523495,
+ "mAP50-95": 0.7838544260676866,
+ "precision": 0.9146108539619004,
+ "recall": 0.7984605166979728,
+ "per_class_ap50": {
+  "account_button": 0.9848253968253969,
+  "avatar": 0.7705582954318096,
+  "bookmark_button": 0.7625915789473685,
+  "carousel_nav": 0.6345270026945574,
+  "close_button": 0.9259132867132868,
+  "compose_button": 0.8673965183752419,
+  "compose_textbox": 0.6222497049188224,
+  "dialog": 0.7619999999999998,
+  "follow_button": 0.9949999999999999,
+  "icon_button": 0.7681212402044183,
+  "like_button": 0.726027579891373,
+  "link_card": 0.23450000000000001,
+  "menu_item": 0.9080460172886362,
+  "nav_item": 0.9618471897203879,
+  "news_card": 0.99275,
+  "notification_item": 0.7838544260676866,
+  "overflow_button": 0.8315353001576531,
+  "post_button": 0.8550000000000001,
+  "post_container": 0.9370845324944075,
+  "post_media": 0.6989885217485282,
+  "post_text": 0.4857037092450896,
+  "reply_button": 0.7896153846153846,
+  "repost_button": 0.7385388967070081,
+  "search_input": 0.9509411764705883,
+  "share_button": 0.7347214141414142,
+  "tab": 0.5552209873447044,
+  "trend_item": 0.9260927338418306,
+  "user_cell": 0.9949999999999999,
+  "username_link": 0.6498719855277781,
+  "video": 0.667109902657225
+ },
+ "params": 2595690
+}
