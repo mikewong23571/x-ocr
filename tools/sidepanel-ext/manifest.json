@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "X-OCR Page Parser",
+  "version": "1.0",
+  "description": "侧边栏实时结构化解析当前页面（本地 ONNX 检测器，2.6M/32类）",
+  "permissions": [
+    "tabs",
+    "sidePanel",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8800/*",
+    "http://localhost:8800/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "X-OCR 解析"
+  }
+}

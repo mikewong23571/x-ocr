@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8">
+<style>
+ :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--txt:#e6edf3;--mut:#8b949e;--acc:#58a6ff}
+ *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--txt);font:12.5px/1.5 -apple-system,"PingFang SC",sans-serif;width:100%}
+ header{padding:10px 12px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:2}
+ h1{margin:0;font-size:13px} h1 span{color:var(--acc);font-weight:400}
+ button{background:#238636;color:#fff;border:0;border-radius:6px;padding:6px 14px;font-size:12px;cursor:pointer;margin-top:8px}
+ button:hover{background:#2ea043}
+ .bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+ canvas{width:100%;display:block;border-radius:8px;margin-top:8px;border:1px solid var(--line)}
+ .tabs{display:flex;gap:6px;margin-top:8px}
+ .tab{padding:3px 10px;border:1px solid var(--line);border-radius:99px;cursor:pointer;color:var(--mut);font-size:11px}
+ .tab.on{color:#fff;border-color:var(--acc);background:rgba(88,166,255,.15)}
+ #list,#doc{padding:8px 12px;display:none} #list.on,#doc.on{display:block}
+ .grp{margin:8px 0} .grp h3{margin:2px 0 4px;font-size:11.5px;color:var(--acc)}
+ .el{display:flex;justify-content:space-between;padding:2.5px 8px;border-radius:6px;font-size:11.5px;font-family:Menlo,monospace}
+ .el:hover{background:rgba(255,255,255,.07)}
+ .el .c{color:var(--mut)}
+ pre{white-space:pre-wrap;font-size:11px;font-family:Menlo,monospace;color:#a5d6ff}
+ .err{color:#f85149;padding:12px}
+ .meta{color:var(--mut);font-size:11px;margin-top:6px}
+</style></head><body>
+<header>
+ <h1>X-OCR 结构化解析 <span>2.6M · 32类 · 本地ONNX</span></h1>
+ <div class="bar"><button id="go">解析当前页</button><span id="stat" class="meta"></span></div>
+ <canvas id="cv" height="0"></canvas>
+ <div class="tabs"><span class="tab on" data-t="list">元素列表</span><span class="tab" data-t="doc">屏幕文档</span></div>
+</header>
+<div id="list"></div><div id="doc"></div>
+<div id="hint" class="meta" style="padding:10px 12px">点「解析当前页」。需本地服务已启动（demo_server.py :8800）。</div>
+<script src="sidepanel.js"></script>
+</body></html>

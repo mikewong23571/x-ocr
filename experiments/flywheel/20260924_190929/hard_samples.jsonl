@@ -1,0 +1,572 @@
+{"sample": "s01/0001/shot.png", "route": "home", "dark": true, "n_missed": 9, "missed_roles": ["carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "like_button", "repost_button", "reply_button", "avatar", "share_button"]}
+{"sample": "s01/0002/shot.png", "route": "home", "dark": true, "n_missed": 5, "missed_roles": ["post_media", "post_media", "post_media", "carousel_nav", "carousel_nav"]}
+{"sample": "s01/0003/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s01/0004/shot.png", "route": "explore", "dark": true, "n_missed": 3, "missed_roles": ["tab", "overflow_button", "overflow_button"]}
+{"sample": "s01/0005/shot.png", "route": "notifications", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s01/0013/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s01/0020/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["icon_button", "avatar", "avatar", "avatar"]}
+{"sample": "s01/0021/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["post_media", "icon_button", "carousel_nav", "carousel_nav"]}
+{"sample": "s01/0022/shot.png", "route": "home", "dark": true, "n_missed": 3, "missed_roles": ["post_media", "carousel_nav", "carousel_nav"]}
+{"sample": "s01/0023/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "carousel_nav"]}
+{"sample": "s01/0024/shot.png", "route": "explore", "dark": true, "n_missed": 7, "missed_roles": ["icon_button", "avatar", "avatar", "avatar", "avatar", "avatar", "avatar"]}
+{"sample": "s01/0025/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["post_text"]}
+{"sample": "s01/0027/shot.png", "route": "notifications", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s01/0031/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s01/0035/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "carousel_nav"]}
+{"sample": "s01/0037/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s01/0038/shot.png", "route": "home", "dark": true, "n_missed": 5, "missed_roles": ["post_media", "post_media", "trend_item", "carousel_nav", "carousel_nav"]}
+{"sample": "s01/0040/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s01/0042/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["overflow_button"]}
+{"sample": "s01/0046/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s01/0058/shot.png", "route": "grok", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s01/0067/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 1, "missed_roles": ["avatar"]}
+{"sample": "s01/0069/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 4, "missed_roles": ["post_media", "trend_item", "carousel_nav", "carousel_nav"]}
+{"sample": "s01/0070/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 4, "missed_roles": ["post_media", "trend_item", "carousel_nav", "carousel_nav"]}
+{"sample": "s01/0071/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 16, "missed_roles": ["post_media", "video", "post_container", "username_link", "trend_item", "post_media", "carousel_nav", "carousel_nav", "like_button", "reply_button", "repost_button", "icon_button"]}
+{"sample": "s02/0001/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s02/0002/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 7, "missed_roles": ["menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "carousel_nav", "icon_button"]}
+{"sample": "s02/0003/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 9, "missed_roles": ["post_text", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "overflow_button"]}
+{"sample": "s02/0004/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 12, "missed_roles": ["post_media", "video", "carousel_nav", "carousel_nav", "carousel_nav", "carousel_nav", "like_button", "reply_button", "repost_button", "icon_button", "bookmark_button", "share_button"]}
+{"sample": "s02/0005/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 11, "missed_roles": ["menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "carousel_nav", "icon_button"]}
+{"sample": "s02/0006/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 38, "missed_roles": ["trend_item", "user_cell", "account_button", "nav_item", "menu_item", "search_input", "post_text", "username_link", "username_link", "icon_button", "icon_button", "follow_button"]}
+{"sample": "s02/0007/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 8, "missed_roles": ["menu_item", "menu_item", "menu_item", "avatar", "avatar", "avatar", "tab", "avatar"]}
+{"sample": "s02/0008/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 11, "missed_roles": ["username_link", "avatar", "carousel_nav", "carousel_nav", "avatar", "avatar", "avatar", "tab", "icon_button", "icon_button", "overflow_button"]}
+{"sample": "s02/0009/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 13, "missed_roles": ["menu_item", "menu_item", "username_link", "avatar", "carousel_nav", "carousel_nav", "avatar", "avatar", "avatar", "tab", "icon_button", "icon_button"]}
+{"sample": "s02b/0001/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 12, "missed_roles": ["username_link", "carousel_nav", "icon_button", "like_button", "repost_button", "reply_button", "like_button", "reply_button", "repost_button", "share_button", "overflow_button", "share_button"]}
+{"sample": "s02b/0002/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 7, "missed_roles": ["menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "carousel_nav", "icon_button"]}
+{"sample": "s02b/0003/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 13, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "like_button", "reply_button", "repost_button", "icon_button", "bookmark_button", "share_button"]}
+{"sample": "s02b/0004/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 15, "missed_roles": ["menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s02b/0005/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 9, "missed_roles": ["menu_item", "menu_item", "menu_item", "carousel_nav", "icon_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s02b/0006/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 9, "missed_roles": ["menu_item", "menu_item", "carousel_nav", "icon_button", "repost_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s02c/0001/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 8, "missed_roles": ["username_link", "carousel_nav", "icon_button", "like_button", "reply_button", "repost_button", "share_button", "overflow_button"]}
+{"sample": "s02c/0002/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 7, "missed_roles": ["menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "carousel_nav", "icon_button"]}
+{"sample": "s02c/0003/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 8, "missed_roles": ["avatar", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "overflow_button"]}
+{"sample": "s02c/0004/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 12, "missed_roles": ["menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s02c/0005/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 9, "missed_roles": ["menu_item", "menu_item", "menu_item", "carousel_nav", "icon_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s02c/0006/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 9, "missed_roles": ["menu_item", "menu_item", "carousel_nav", "icon_button", "repost_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s03/0001/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["compose_textbox", "tab", "icon_button"]}
+{"sample": "s03/0004/shot.png", "route": "status", "dark": true, "n_missed": 6, "missed_roles": ["tab", "like_button", "repost_button", "reply_button", "bookmark_button", "share_button"]}
+{"sample": "s03/0006/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s03/0009/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "tab", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s03/0012/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "tab", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s04/0001/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s04/0002/shot.png", "route": "home", "dark": true, "n_missed": 3, "missed_roles": ["post_media", "carousel_nav", "carousel_nav"]}
+{"sample": "s04/0003/shot.png", "route": "explore", "dark": true, "n_missed": 3, "missed_roles": ["tab", "icon_button", "avatar"]}
+{"sample": "s04/0004/shot.png", "route": "explore", "dark": true, "n_missed": 9, "missed_roles": ["trend_item", "tab", "avatar", "avatar", "avatar", "avatar", "avatar", "avatar", "avatar"]}
+{"sample": "s04/0011/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s04/0019/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s04/0023/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s04/0024/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "carousel_nav"]}
+{"sample": "s04/0026/shot.png", "route": "home", "dark": true, "n_missed": 3, "missed_roles": ["video", "carousel_nav", "carousel_nav"]}
+{"sample": "s04/0027/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s04/0028/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["overflow_button", "overflow_button"]}
+{"sample": "s04/0032/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s04/0044/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s04/0055/shot.png", "route": "home", "dark": true, "n_missed": 6, "missed_roles": ["post_text", "username_link", "trend_item", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s04/0056/shot.png", "route": "home", "dark": true, "n_missed": 3, "missed_roles": ["trend_item", "bookmark_button", "share_button"]}
+{"sample": "s04/0057/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s04/0059/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["overflow_button"]}
+{"sample": "s04/0072/shot.png", "route": "grok", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s04/0080/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 21, "missed_roles": ["post_text", "username_link", "post_button", "avatar", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button"]}
+{"sample": "s04/0084/shot.png", "route": "status", "dark": true, "n_missed": 10, "missed_roles": ["video", "post_text", "tab", "icon_button", "like_button", "bookmark_button", "repost_button", "reply_button", "overflow_button", "share_button"]}
+{"sample": "s04/0085/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["tab", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s04/0086/shot.png", "route": "status", "dark": true, "n_missed": 8, "missed_roles": ["post_container", "username_link", "tab", "reply_button", "repost_button", "like_button", "bookmark_button", "share_button"]}
+{"sample": "s04/0088/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["tab", "icon_button", "icon_button"]}
+{"sample": "s04/0089/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["post_text", "tab"]}
+{"sample": "s04/0090/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s04/0092/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["post_container", "tab", "username_link", "icon_button", "overflow_button"]}
+{"sample": "s05/0001/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s05/0002/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["post_media", "post_media", "carousel_nav", "carousel_nav"]}
+{"sample": "s05/0003/shot.png", "route": "home", "dark": true, "n_missed": 3, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s05/0005/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s05/0006/shot.png", "route": "explore", "dark": true, "n_missed": 6, "missed_roles": ["tab", "avatar", "avatar", "avatar", "avatar", "avatar"]}
+{"sample": "s05/0007/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s05/0015/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s05/0022/shot.png", "route": "home", "dark": true, "n_missed": 9, "missed_roles": ["post_media", "post_media", "post_text", "post_media", "username_link", "carousel_nav", "carousel_nav", "icon_button", "avatar"]}
+{"sample": "s05/0023/shot.png", "route": "home", "dark": true, "n_missed": 5, "missed_roles": ["like_button", "reply_button", "repost_button", "bookmark_button", "share_button"]}
+{"sample": "s05/0024/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "carousel_nav"]}
+{"sample": "s05/0025/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s05/0026/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["overflow_button", "overflow_button"]}
+{"sample": "s05/0027/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s05/0038/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s05/0047/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["post_media", "video", "post_media", "trend_item"]}
+{"sample": "s05/0048/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["link_card", "trend_item", "carousel_nav", "carousel_nav"]}
+{"sample": "s05/0050/shot.png", "route": "explore", "dark": true, "n_missed": 4, "missed_roles": ["avatar", "avatar", "avatar", "overflow_button"]}
+{"sample": "s05/0051/shot.png", "route": "explore", "dark": true, "n_missed": 3, "missed_roles": ["trend_item", "overflow_button", "overflow_button"]}
+{"sample": "s05/0062/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s05/0076/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 15, "missed_roles": ["username_link", "post_button", "avatar", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button"]}
+{"sample": "s05/0077/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 3, "missed_roles": ["bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s05/0078/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 3, "missed_roles": ["bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s05/0079/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 4, "missed_roles": ["repost_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s05/0080/shot.png", "route": "status", "dark": true, "n_missed": 7, "missed_roles": ["post_media", "tab", "carousel_nav", "carousel_nav", "icon_button", "overflow_button", "overflow_button"]}
+{"sample": "s05/0082/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s05/0083/shot.png", "route": "status", "dark": true, "n_missed": 6, "missed_roles": ["post_media", "tab", "carousel_nav", "carousel_nav", "icon_button", "overflow_button"]}
+{"sample": "s05/0084/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["tab", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s05/0085/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "tab", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s05/0086/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["tab", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s05/0087/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["tab", "icon_button", "overflow_button"]}
+{"sample": "s06/0001/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s06/0002/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["post_media", "post_media", "username_link", "avatar"]}
+{"sample": "s06/0003/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s06/0004/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["overflow_button", "overflow_button"]}
+{"sample": "s06/0008/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s06/0017/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s06/0025/shot.png", "route": "home", "dark": true, "n_missed": 7, "missed_roles": ["post_media", "video", "trend_item", "carousel_nav", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s06/0026/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s06/0027/shot.png", "route": "explore", "dark": true, "n_missed": 3, "missed_roles": ["trend_item", "overflow_button", "overflow_button"]}
+{"sample": "s06/0032/shot.png", "route": "grok", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s06/0036/shot.png", "route": "home", "dark": true, "n_missed": 3, "missed_roles": ["icon_button", "carousel_nav", "icon_button"]}
+{"sample": "s06/0037/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["username_link", "avatar"]}
+{"sample": "s06/0038/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s06/0039/shot.png", "route": "explore", "dark": true, "n_missed": 6, "missed_roles": ["tab", "avatar", "avatar", "avatar", "avatar", "avatar"]}
+{"sample": "s06/0046/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s06/0051/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s06/0058/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s06/0059/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s06/0060/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 14, "missed_roles": ["post_text", "post_text", "username_link", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "avatar"]}
+{"sample": "s06/0061/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 3, "missed_roles": ["carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s06/0062/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 3, "missed_roles": ["carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s06/0063/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "carousel_nav", "icon_button", "repost_button", "icon_button"]}
+{"sample": "s06/0064/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s06/0068/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "avatar"]}
+{"sample": "s06/0070/shot.png", "route": "status", "dark": true, "n_missed": 8, "missed_roles": ["post_container", "post_text", "like_button", "reply_button", "repost_button", "bookmark_button", "share_button", "avatar"]}
+{"sample": "s06/0071/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s06/0072/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["post_media", "post_media", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s06/0073/shot.png", "route": "status", "dark": true, "n_missed": 6, "missed_roles": ["post_media", "post_media", "post_media", "tab", "carousel_nav", "carousel_nav"]}
+{"sample": "s06/0074/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s07/0002/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["post_media", "trend_item", "carousel_nav", "carousel_nav"]}
+{"sample": "s07/0003/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["post_text", "trend_item", "link_card", "post_media"]}
+{"sample": "s07/0004/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s07/0005/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s07/0006/shot.png", "route": "explore", "dark": true, "n_missed": 4, "missed_roles": ["post_text", "username_link", "avatar", "avatar"]}
+{"sample": "s07/0015/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s07/0019/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s07/0022/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s07/0023/shot.png", "route": "explore", "dark": true, "n_missed": 4, "missed_roles": ["post_text", "tab", "overflow_button", "overflow_button"]}
+{"sample": "s07/0024/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s07/0027/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s07/0032/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s07/0036/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s07/0037/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["video", "icon_button"]}
+{"sample": "s07/0038/shot.png", "route": "home", "dark": true, "n_missed": 7, "missed_roles": ["post_text", "username_link", "avatar", "bookmark_button", "share_button", "icon_button", "overflow_button"]}
+{"sample": "s07/0039/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s07/0040/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["overflow_button", "overflow_button"]}
+{"sample": "s07/0047/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s07/0058/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s07/0070/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 3, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s07/0071/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 3, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s07/0072/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 14, "missed_roles": ["carousel_nav", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "avatar"]}
+{"sample": "s07/0073/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 4, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s07/0074/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 4, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s07/0075/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 6, "missed_roles": ["username_link", "carousel_nav", "carousel_nav", "icon_button", "repost_button", "icon_button"]}
+{"sample": "s07/0076/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s07/0077/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s07/0078/shot.png", "route": "status", "dark": true, "n_missed": 7, "missed_roles": ["post_media", "tab", "like_button", "reply_button", "repost_button", "bookmark_button", "share_button"]}
+{"sample": "s07/0080/shot.png", "route": "status", "dark": true, "n_missed": 6, "missed_roles": ["tab", "like_button", "reply_button", "bookmark_button", "repost_button", "share_button"]}
+{"sample": "s07/0084/shot.png", "route": "status", "dark": true, "n_missed": 10, "missed_roles": ["post_container", "username_link", "tab", "icon_button", "overflow_button", "reply_button", "repost_button", "like_button", "bookmark_button", "share_button"]}
+{"sample": "s07/0085/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["tab", "icon_button", "post_button", "avatar"]}
+{"sample": "s08/0001/shot.png", "route": "home", "dark": true, "n_missed": 5, "missed_roles": ["post_text", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s08/0002/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["username_link", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s08/0003/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s08/0004/shot.png", "route": "explore", "dark": true, "n_missed": 6, "missed_roles": ["user_cell", "post_text", "user_cell", "follow_button", "tab", "avatar"]}
+{"sample": "s08/0008/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["post_text"]}
+{"sample": "s08/0009/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s08/0014/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s08/0025/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s08/0026/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["trend_item", "video"]}
+{"sample": "s08/0027/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s08/0039/shot.png", "route": "grok", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s08/0050/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "carousel_nav"]}
+{"sample": "s08/0052/shot.png", "route": "home", "dark": true, "n_missed": 13, "missed_roles": ["video", "post_media", "video", "carousel_nav", "carousel_nav", "like_button", "repost_button", "reply_button", "icon_button", "icon_button", "icon_button", "bookmark_button"]}
+{"sample": "s08/0053/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s08/0054/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["overflow_button", "overflow_button"]}
+{"sample": "s08/0055/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s08/0063/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s08/0070/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s08/0071/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s08/0072/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 11, "missed_roles": ["avatar", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s08/0073/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 5, "missed_roles": ["icon_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s08/0074/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 6, "missed_roles": ["icon_button", "avatar", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s08/0075/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 7, "missed_roles": ["username_link", "icon_button", "repost_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s08/0076/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s08/0079/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "tab", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s08/0080/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s08/0082/shot.png", "route": "status", "dark": true, "n_missed": 9, "missed_roles": ["post_container", "post_text", "tab", "reply_button", "repost_button", "like_button", "bookmark_button", "share_button", "avatar"]}
+{"sample": "s08/0083/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["post_container", "tab", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s08/0084/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "tab", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s08/0085/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s08/0086/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s09/0001/shot.png", "route": "profile", "dark": true, "n_missed": 4, "missed_roles": ["avatar", "tab", "icon_button", "icon_button"]}
+{"sample": "s09/0002/shot.png", "route": "profile", "dark": true, "n_missed": 11, "missed_roles": ["post_media", "username_link", "tab", "tab", "tab", "tab", "carousel_nav", "carousel_nav", "tab", "icon_button", "overflow_button"]}
+{"sample": "s09/0003/shot.png", "route": "profile", "dark": true, "n_missed": 6, "missed_roles": ["post_media", "post_media", "tab", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s09/0004/shot.png", "route": "profile", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s09/0012/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s09/0013/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["avatar"]}
+{"sample": "s09/0014/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s09/0017/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s09/0018/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["post_container", "tab", "icon_button"]}
+{"sample": "s09/0019/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["compose_textbox", "username_link", "post_button", "avatar"]}
+{"sample": "s10/0001/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s10/0003/shot.png", "route": "home", "dark": true, "n_missed": 3, "missed_roles": ["post_text", "carousel_nav", "carousel_nav"]}
+{"sample": "s10/0004/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s10/0005/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s10/0006/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s10/0007/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s10/0018/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s10/0022/shot.png", "route": "home", "dark": true, "n_missed": 3, "missed_roles": ["video", "icon_button", "avatar"]}
+{"sample": "s10/0023/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["post_media", "icon_button", "carousel_nav", "carousel_nav"]}
+{"sample": "s10/0024/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s10/0025/shot.png", "route": "explore", "dark": true, "n_missed": 3, "missed_roles": ["post_text", "username_link", "avatar"]}
+{"sample": "s10/0026/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["video", "icon_button"]}
+{"sample": "s10/0030/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s10/0040/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s10/0047/shot.png", "route": "home", "dark": true, "n_missed": 5, "missed_roles": ["trend_item", "username_link", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s10/0048/shot.png", "route": "home", "dark": true, "n_missed": 7, "missed_roles": ["post_text", "link_card", "username_link", "trend_item", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s10/0050/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["overflow_button", "overflow_button"]}
+{"sample": "s10/0051/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["overflow_button"]}
+{"sample": "s10/0065/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s10/0079/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 16, "missed_roles": ["username_link", "post_button", "avatar", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button"]}
+{"sample": "s10/0083/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["tab", "icon_button", "overflow_button"]}
+{"sample": "s10/0085/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["post_text", "tab"]}
+{"sample": "s10/0086/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["post_media", "tab", "carousel_nav", "carousel_nav"]}
+{"sample": "s10/0087/shot.png", "route": "status", "dark": true, "n_missed": 6, "missed_roles": ["post_media", "tab", "carousel_nav", "carousel_nav", "icon_button", "overflow_button"]}
+{"sample": "s10/0090/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s10/0091/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["tab", "icon_button", "overflow_button", "overflow_button", "overflow_button"]}
+{"sample": "s10/0092/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "follow_button", "tab", "avatar", "avatar"]}
+{"sample": "s11/0001/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s11/0003/shot.png", "route": "home", "dark": true, "n_missed": 3, "missed_roles": ["post_media", "carousel_nav", "carousel_nav"]}
+{"sample": "s11/0004/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s11/0006/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s11/0014/shot.png", "route": "grok", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s11/0019/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["trend_item", "avatar"]}
+{"sample": "s11/0020/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s11/0021/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["overflow_button"]}
+{"sample": "s11/0028/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s11/0032/shot.png", "route": "home", "dark": true, "n_missed": 7, "missed_roles": ["post_media", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "avatar"]}
+{"sample": "s11/0033/shot.png", "route": "home", "dark": true, "n_missed": 9, "missed_roles": ["post_media", "post_media", "video", "post_media", "post_media", "post_media", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s11/0035/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["video"]}
+{"sample": "s11/0036/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s11/0037/shot.png", "route": "explore", "dark": true, "n_missed": 7, "missed_roles": ["tab", "avatar", "avatar", "avatar", "avatar", "avatar", "avatar"]}
+{"sample": "s11/0038/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s11/0040/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s11/0044/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s11/0045/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s11/0046/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 14, "missed_roles": ["post_text", "username_link", "avatar", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "avatar"]}
+{"sample": "s11/0047/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 3, "missed_roles": ["carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s11/0048/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 3, "missed_roles": ["carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s11/0049/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "carousel_nav", "icon_button", "repost_button", "icon_button"]}
+{"sample": "s11/0050/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s11/0051/shot.png", "route": "status", "dark": true, "n_missed": 7, "missed_roles": ["tab", "icon_button", "reply_button", "repost_button", "like_button", "bookmark_button", "share_button"]}
+{"sample": "s11/0052/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "tab", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s11/0054/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["post_container", "username_link", "tab", "icon_button", "overflow_button"]}
+{"sample": "s11/0055/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s11/0056/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "bookmark_button"]}
+{"sample": "s11/0059/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "compose_textbox", "tab", "post_button", "avatar"]}
+{"sample": "s11/0060/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s12/0002/shot.png", "route": "home", "dark": true, "n_missed": 7, "missed_roles": ["post_media", "post_media", "post_text", "username_link", "trend_item", "carousel_nav", "carousel_nav"]}
+{"sample": "s12/0003/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s12/0004/shot.png", "route": "home", "dark": true, "n_missed": 7, "missed_roles": ["post_text", "trend_item", "like_button", "repost_button", "reply_button", "bookmark_button", "share_button"]}
+{"sample": "s12/0005/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s12/0014/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s12/0024/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s12/0025/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["video"]}
+{"sample": "s12/0026/shot.png", "route": "home", "dark": true, "n_missed": 5, "missed_roles": ["post_text", "username_link", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s12/0027/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s12/0028/shot.png", "route": "explore", "dark": true, "n_missed": 5, "missed_roles": ["tab", "avatar", "avatar", "avatar", "overflow_button"]}
+{"sample": "s12/0035/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s12/0043/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s12/0053/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s12/0054/shot.png", "route": "home", "dark": true, "n_missed": 5, "missed_roles": ["post_text", "avatar", "username_link", "icon_button", "overflow_button"]}
+{"sample": "s12/0055/shot.png", "route": "home", "dark": true, "n_missed": 12, "missed_roles": ["post_media", "video", "repost_button", "like_button", "reply_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "bookmark_button", "share_button"]}
+{"sample": "s12/0058/shot.png", "route": "explore", "dark": true, "n_missed": 3, "missed_roles": ["trend_item", "overflow_button", "overflow_button"]}
+{"sample": "s12/0063/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s12/0074/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s12/0084/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s12/0085/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s12/0086/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 10, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s12/0087/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 2, "missed_roles": ["icon_button", "icon_button"]}
+{"sample": "s12/0088/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 2, "missed_roles": ["icon_button", "icon_button"]}
+{"sample": "s12/0089/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 2, "missed_roles": ["icon_button", "icon_button"]}
+{"sample": "s12/0090/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s12/0091/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s12/0092/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s12/0093/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["post_container", "tab", "icon_button"]}
+{"sample": "s12/0094/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["tab", "carousel_nav", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s12/0095/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "post_text"]}
+{"sample": "s12/0096/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s13/0001/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s13/0002/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["post_media", "post_media", "video", "video"]}
+{"sample": "s13/0003/shot.png", "route": "home", "dark": true, "n_missed": 6, "missed_roles": ["video", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "avatar"]}
+{"sample": "s13/0004/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["username_link", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s13/0005/shot.png", "route": "explore", "dark": true, "n_missed": 3, "missed_roles": ["trend_item", "tab", "icon_button"]}
+{"sample": "s13/0006/shot.png", "route": "explore", "dark": true, "n_missed": 5, "missed_roles": ["tab", "avatar", "avatar", "avatar", "overflow_button"]}
+{"sample": "s13/0010/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s13/0021/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s13/0029/shot.png", "route": "home", "dark": true, "n_missed": 6, "missed_roles": ["trend_item", "like_button", "reply_button", "repost_button", "bookmark_button", "share_button"]}
+{"sample": "s13/0030/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s13/0031/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s13/0032/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["icon_button", "avatar"]}
+{"sample": "s13/0055/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s13/0067/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s13/0070/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["link_card"]}
+{"sample": "s13/0072/shot.png", "route": "explore", "dark": true, "n_missed": 7, "missed_roles": ["post_media", "user_cell", "post_media", "follow_button", "avatar", "carousel_nav", "carousel_nav"]}
+{"sample": "s13/0073/shot.png", "route": "explore", "dark": true, "n_missed": 11, "missed_roles": ["post_container", "post_media", "username_link", "avatar", "repost_button", "reply_button", "like_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s13/0077/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s13/0085/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s13/0094/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s13/0095/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s13/0096/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 12, "missed_roles": ["username_link", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s13/0097/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 2, "missed_roles": ["icon_button", "icon_button"]}
+{"sample": "s13/0098/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 2, "missed_roles": ["icon_button", "icon_button"]}
+{"sample": "s13/0099/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 2, "missed_roles": ["icon_button", "icon_button"]}
+{"sample": "s13/0100/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s13/0101/shot.png", "route": "status", "dark": true, "n_missed": 7, "missed_roles": ["post_container", "tab", "icon_button", "username_link", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s13/0102/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "tab", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s13/0103/shot.png", "route": "status", "dark": true, "n_missed": 6, "missed_roles": ["post_media", "tab", "carousel_nav", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s13/0104/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s13/0105/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "avatar"]}
+{"sample": "s13/0106/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s13/0107/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s13/0109/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s14/0001/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s14/0002/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["video"]}
+{"sample": "s14/0004/shot.png", "route": "explore", "dark": true, "n_missed": 3, "missed_roles": ["trend_item", "tab", "icon_button"]}
+{"sample": "s14/0005/shot.png", "route": "explore", "dark": true, "n_missed": 7, "missed_roles": ["tab", "avatar", "avatar", "avatar", "avatar", "avatar", "avatar"]}
+{"sample": "s14/0012/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s14/0020/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s14/0031/shot.png", "route": "home", "dark": true, "n_missed": 4, "missed_roles": ["link_card", "video", "trend_item", "avatar"]}
+{"sample": "s14/0032/shot.png", "route": "home", "dark": true, "n_missed": 9, "missed_roles": ["post_media", "video", "video", "trend_item", "like_button", "reply_button", "repost_button", "bookmark_button", "share_button"]}
+{"sample": "s14/0034/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s14/0035/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["overflow_button"]}
+{"sample": "s14/0044/shot.png", "route": "grok", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s14/0050/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 1, "missed_roles": ["post_text"]}
+{"sample": "s14/0051/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 2, "missed_roles": ["post_text", "avatar"]}
+{"sample": "s14/0052/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 17, "missed_roles": ["post_text", "username_link", "post_text", "post_button", "avatar", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button"]}
+{"sample": "s14/0053/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 1, "missed_roles": ["post_text"]}
+{"sample": "s14/0054/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 1, "missed_roles": ["post_text"]}
+{"sample": "s14/0055/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 2, "missed_roles": ["post_text", "repost_button"]}
+{"sample": "s14/0056/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["tab", "icon_button", "overflow_button"]}
+{"sample": "s14/0057/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["post_text", "tab", "icon_button", "overflow_button"]}
+{"sample": "s14/0058/shot.png", "route": "status", "dark": true, "n_missed": 7, "missed_roles": ["post_text", "avatar", "like_button", "repost_button", "reply_button", "bookmark_button", "share_button"]}
+{"sample": "s14/0059/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["tab", "icon_button", "overflow_button", "overflow_button"]}
+{"sample": "s14/0061/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["post_media", "post_text", "tab"]}
+{"sample": "s14/0062/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s14/0063/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["tab", "icon_button", "overflow_button", "overflow_button"]}
+{"sample": "s14/0064/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["username_link", "tab", "icon_button"]}
+{"sample": "s14/0065/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["post_text", "username_link", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s15/0001/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s15/0002/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["video"]}
+{"sample": "s15/0004/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["icon_button", "overflow_button"]}
+{"sample": "s15/0005/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["overflow_button"]}
+{"sample": "s15/0006/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s15/0013/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s15/0025/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s15/0026/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["post_media", "video"]}
+{"sample": "s15/0027/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s15/0028/shot.png", "route": "home", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s15/0029/shot.png", "route": "explore", "dark": true, "n_missed": 3, "missed_roles": ["trend_item", "tab", "icon_button"]}
+{"sample": "s15/0030/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "overflow_button"]}
+{"sample": "s15/0034/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s15/0045/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s15/0055/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 3, "missed_roles": ["trend_item", "carousel_nav", "icon_button"]}
+{"sample": "s15/0056/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 3, "missed_roles": ["trend_item", "carousel_nav", "icon_button"]}
+{"sample": "s15/0057/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 12, "missed_roles": ["post_text", "username_link", "trend_item", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "overflow_button"]}
+{"sample": "s15/0058/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 6, "missed_roles": ["trend_item", "carousel_nav", "icon_button", "icon_button", "bookmark_button", "share_button"]}
+{"sample": "s15/0059/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 6, "missed_roles": ["trend_item", "carousel_nav", "icon_button", "icon_button", "bookmark_button", "share_button"]}
+{"sample": "s15/0060/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 8, "missed_roles": ["trend_item", "username_link", "carousel_nav", "icon_button", "repost_button", "icon_button", "bookmark_button", "share_button"]}
+{"sample": "s15/0061/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s15/0062/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["video", "tab", "icon_button"]}
+{"sample": "s15/0063/shot.png", "route": "status", "dark": true, "n_missed": 7, "missed_roles": ["post_text", "post_container", "avatar", "reply_button", "repost_button", "like_button", "bookmark_button"]}
+{"sample": "s15/0064/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s15/0065/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s15/0070/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s15/0071/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s16/0002/shot.png", "route": "home", "dark": true, "n_missed": 9, "missed_roles": ["video", "trend_item", "username_link", "carousel_nav", "carousel_nav", "avatar", "icon_button", "icon_button", "overflow_button"]}
+{"sample": "s16/0003/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["icon_button", "avatar"]}
+{"sample": "s16/0004/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["overflow_button"]}
+{"sample": "s16/0009/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s16/0018/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["icon_button", "avatar"]}
+{"sample": "s16/0022/shot.png", "route": "explore", "dark": true, "n_missed": 3, "missed_roles": ["trend_item", "icon_button", "overflow_button"]}
+{"sample": "s16/0027/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s16/0036/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s16/0043/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s16/0044/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s16/0045/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 11, "missed_roles": ["username_link", "avatar", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "overflow_button"]}
+{"sample": "s16/0046/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 5, "missed_roles": ["icon_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s16/0047/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 5, "missed_roles": ["icon_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s16/0048/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 7, "missed_roles": ["username_link", "icon_button", "repost_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s16/0049/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s16/0050/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s16/0051/shot.png", "route": "status", "dark": true, "n_missed": 6, "missed_roles": ["tab", "like_button", "bookmark_button", "repost_button", "reply_button", "share_button"]}
+{"sample": "s16/0053/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["compose_textbox", "tab", "icon_button"]}
+{"sample": "s16/0054/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["compose_textbox", "post_container", "tab", "post_button", "avatar"]}
+{"sample": "s16/0056/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["tab", "like_button", "reply_button", "bookmark_button", "repost_button"]}
+{"sample": "s16/0057/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s16/0058/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["compose_textbox", "post_container", "post_button", "tab", "avatar"]}
+{"sample": "s17/0001/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s17/0004/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s17/0005/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["follow_button", "avatar"]}
+{"sample": "s17/0012/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s17/0016/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s17/0020/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s17/0021/shot.png", "route": "home", "dark": true, "n_missed": 7, "missed_roles": ["post_media", "video", "like_button", "repost_button", "reply_button", "bookmark_button", "share_button"]}
+{"sample": "s17/0022/shot.png", "route": "explore", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s17/0023/shot.png", "route": "explore", "dark": true, "n_missed": 7, "missed_roles": ["tab", "avatar", "avatar", "avatar", "avatar", "avatar", "avatar"]}
+{"sample": "s17/0027/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s17/0035/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s17/0042/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 5, "missed_roles": ["post_media", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s17/0043/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 5, "missed_roles": ["post_media", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s17/0044/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 14, "missed_roles": ["post_media", "carousel_nav", "carousel_nav", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button"]}
+{"sample": "s17/0045/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 6, "missed_roles": ["post_media", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s17/0046/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 6, "missed_roles": ["post_media", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s17/0047/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 7, "missed_roles": ["post_media", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "repost_button", "icon_button"]}
+{"sample": "s17/0048/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["tab", "post_container", "icon_button"]}
+{"sample": "s17/0049/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["username_link", "tab", "icon_button"]}
+{"sample": "s17/0050/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s17/0051/shot.png", "route": "status", "dark": true, "n_missed": 6, "missed_roles": ["tab", "icon_button", "username_link", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s17/0056/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["tab", "carousel_nav", "carousel_nav"]}
+{"sample": "s17/0057/shot.png", "route": "status", "dark": true, "n_missed": 4, "missed_roles": ["tab", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s17/0058/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["tab", "carousel_nav", "carousel_nav"]}
+{"sample": "s18/0001/shot.png", "route": "home", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s18/0002/shot.png", "route": "home", "dark": true, "n_missed": 5, "missed_roles": ["like_button", "reply_button", "repost_button", "bookmark_button", "share_button"]}
+{"sample": "s18/0004/shot.png", "route": "explore", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s18/0005/shot.png", "route": "explore", "dark": true, "n_missed": 4, "missed_roles": ["avatar", "avatar", "avatar", "overflow_button"]}
+{"sample": "s18/0006/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s18/0010/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s18/0014/shot.png", "route": "home", "dark": true, "n_missed": 3, "missed_roles": ["carousel_nav", "icon_button", "avatar"]}
+{"sample": "s18/0022/shot.png", "route": "notifications", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s18/0030/shot.png", "route": "grok", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s18/0037/shot.png", "route": "state_more_menu", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s18/0038/shot.png", "route": "state_account_menu", "dark": true, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s18/0039/shot.png", "route": "state_compose_dialog", "dark": true, "n_missed": 10, "missed_roles": ["carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "overflow_button"]}
+{"sample": "s18/0040/shot.png", "route": "state_post_overflow_menu", "dark": true, "n_missed": 3, "missed_roles": ["carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s18/0041/shot.png", "route": "state_search_focus", "dark": true, "n_missed": 3, "missed_roles": ["carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s18/0042/shot.png", "route": "state_repost_menu", "dark": true, "n_missed": 5, "missed_roles": ["username_link", "carousel_nav", "icon_button", "repost_button", "icon_button"]}
+{"sample": "s18/0043/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s18/0044/shot.png", "route": "status", "dark": true, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s18/0046/shot.png", "route": "status", "dark": true, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s18/0047/shot.png", "route": "status", "dark": true, "n_missed": 5, "missed_roles": ["post_media", "tab", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s18/0051/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["tab", "icon_button", "overflow_button"]}
+{"sample": "s18/0052/shot.png", "route": "status", "dark": true, "n_missed": 3, "missed_roles": ["tab", "icon_button", "avatar"]}
+{"sample": "s18/0053/shot.png", "route": "status", "dark": true, "n_missed": 8, "missed_roles": ["post_container", "post_text", "post_text", "reply_button", "repost_button", "like_button", "bookmark_button", "share_button"]}
+{"sample": "s19/0001/shot.png", "route": "home", "dark": false, "n_missed": 9, "missed_roles": ["post_media", "post_media", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "reply_button", "bookmark_button", "share_button"]}
+{"sample": "s19/0002/shot.png", "route": "home", "dark": false, "n_missed": 7, "missed_roles": ["post_container", "username_link", "avatar", "carousel_nav", "carousel_nav", "icon_button", "overflow_button"]}
+{"sample": "s19/0003/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s19/0005/shot.png", "route": "explore", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s19/0006/shot.png", "route": "explore", "dark": false, "n_missed": 3, "missed_roles": ["tab", "follow_button", "avatar"]}
+{"sample": "s19/0007/shot.png", "route": "notifications", "dark": false, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s19/0012/shot.png", "route": "grok", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s19/0020/shot.png", "route": "home", "dark": false, "n_missed": 5, "missed_roles": ["post_media", "post_media", "post_text", "carousel_nav", "carousel_nav"]}
+{"sample": "s19/0021/shot.png", "route": "explore", "dark": false, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s19/0022/shot.png", "route": "explore", "dark": false, "n_missed": 3, "missed_roles": ["overflow_button", "overflow_button", "avatar"]}
+{"sample": "s19/0023/shot.png", "route": "explore", "dark": false, "n_missed": 1, "missed_roles": ["video"]}
+{"sample": "s19/0027/shot.png", "route": "notifications", "dark": false, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s19/0031/shot.png", "route": "grok", "dark": false, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s19/0041/shot.png", "route": "home", "dark": false, "n_missed": 9, "missed_roles": ["post_media", "trend_item", "carousel_nav", "carousel_nav", "like_button", "reply_button", "repost_button", "bookmark_button", "share_button"]}
+{"sample": "s19/0042/shot.png", "route": "home", "dark": false, "n_missed": 4, "missed_roles": ["post_media", "video", "trend_item", "bookmark_button"]}
+{"sample": "s19/0043/shot.png", "route": "home", "dark": false, "n_missed": 2, "missed_roles": ["trend_item", "link_card"]}
+{"sample": "s19/0045/shot.png", "route": "explore", "dark": false, "n_missed": 1, "missed_roles": ["overflow_button"]}
+{"sample": "s19/0053/shot.png", "route": "notifications", "dark": false, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s19/0063/shot.png", "route": "state_more_menu", "dark": false, "n_missed": 2, "missed_roles": ["carousel_nav", "carousel_nav"]}
+{"sample": "s19/0064/shot.png", "route": "state_account_menu", "dark": false, "n_missed": 2, "missed_roles": ["carousel_nav", "carousel_nav"]}
+{"sample": "s19/0065/shot.png", "route": "state_compose_dialog", "dark": false, "n_missed": 17, "missed_roles": ["username_link", "post_button", "avatar", "carousel_nav", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button"]}
+{"sample": "s19/0066/shot.png", "route": "state_post_overflow_menu", "dark": false, "n_missed": 1, "missed_roles": ["carousel_nav"]}
+{"sample": "s19/0067/shot.png", "route": "state_search_focus", "dark": false, "n_missed": 1, "missed_roles": ["carousel_nav"]}
+{"sample": "s19/0068/shot.png", "route": "state_repost_menu", "dark": false, "n_missed": 1, "missed_roles": ["carousel_nav"]}
+{"sample": "s19/0069/shot.png", "route": "status", "dark": false, "n_missed": 3, "missed_roles": ["tab", "icon_button", "overflow_button"]}
+{"sample": "s19/0070/shot.png", "route": "status", "dark": false, "n_missed": 4, "missed_roles": ["tab", "icon_button", "overflow_button", "overflow_button"]}
+{"sample": "s19/0071/shot.png", "route": "status", "dark": false, "n_missed": 5, "missed_roles": ["post_text", "follow_button", "tab", "avatar", "avatar"]}
+{"sample": "s19/0072/shot.png", "route": "status", "dark": false, "n_missed": 2, "missed_roles": ["tab", "overflow_button"]}
+{"sample": "s19/0073/shot.png", "route": "status", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s19/0074/shot.png", "route": "status", "dark": false, "n_missed": 6, "missed_roles": ["post_container", "tab", "bookmark_button", "reply_button", "repost_button", "share_button"]}
+{"sample": "s19/0075/shot.png", "route": "status", "dark": false, "n_missed": 4, "missed_roles": ["tab", "overflow_button", "overflow_button", "overflow_button"]}
+{"sample": "s20/0001/shot.png", "route": "home", "dark": false, "n_missed": 5, "missed_roles": ["video", "post_media", "carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s20/0003/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["avatar"]}
+{"sample": "s20/0004/shot.png", "route": "explore", "dark": false, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s20/0005/shot.png", "route": "explore", "dark": false, "n_missed": 2, "missed_roles": ["overflow_button", "overflow_button"]}
+{"sample": "s20/0009/shot.png", "route": "notifications", "dark": false, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s20/0019/shot.png", "route": "grok", "dark": false, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s20/0032/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s20/0034/shot.png", "route": "explore", "dark": false, "n_missed": 3, "missed_roles": ["post_text", "username_link", "avatar"]}
+{"sample": "s20/0051/shot.png", "route": "home", "dark": false, "n_missed": 10, "missed_roles": ["video", "post_media", "carousel_nav", "carousel_nav", "carousel_nav", "icon_button", "like_button", "icon_button", "icon_button", "share_button"]}
+{"sample": "s20/0052/shot.png", "route": "home", "dark": false, "n_missed": 3, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s20/0053/shot.png", "route": "home", "dark": false, "n_missed": 9, "missed_roles": ["post_text", "username_link", "like_button", "reply_button", "icon_button", "overflow_button", "repost_button", "bookmark_button", "share_button"]}
+{"sample": "s20/0054/shot.png", "route": "explore", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s20/0055/shot.png", "route": "explore", "dark": false, "n_missed": 8, "missed_roles": ["trend_item", "tab", "avatar", "avatar", "avatar", "avatar", "avatar", "avatar"]}
+{"sample": "s20/0062/shot.png", "route": "notifications", "dark": false, "n_missed": 1, "missed_roles": ["icon_button"]}
+{"sample": "s20/0064/shot.png", "route": "grok", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s20/0071/shot.png", "route": "state_more_menu", "dark": false, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s20/0072/shot.png", "route": "state_account_menu", "dark": false, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s20/0073/shot.png", "route": "state_compose_dialog", "dark": false, "n_missed": 11, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "overflow_button"]}
+{"sample": "s20/0074/shot.png", "route": "state_post_overflow_menu", "dark": false, "n_missed": 3, "missed_roles": ["carousel_nav", "icon_button", "icon_button"]}
+{"sample": "s20/0075/shot.png", "route": "state_search_focus", "dark": false, "n_missed": 8, "missed_roles": ["carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button"]}
+{"sample": "s20/0076/shot.png", "route": "state_repost_menu", "dark": false, "n_missed": 6, "missed_roles": ["username_link", "avatar", "carousel_nav", "icon_button", "repost_button", "icon_button"]}
+{"sample": "s20/0077/shot.png", "route": "status", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s20/0078/shot.png", "route": "status", "dark": false, "n_missed": 4, "missed_roles": ["username_link", "post_text", "tab", "avatar"]}
+{"sample": "s20/0079/shot.png", "route": "status", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s20/0080/shot.png", "route": "status", "dark": false, "n_missed": 4, "missed_roles": ["username_link", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s20/0081/shot.png", "route": "status", "dark": false, "n_missed": 4, "missed_roles": ["username_link", "tab", "avatar", "overflow_button"]}
+{"sample": "s20/0082/shot.png", "route": "status", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s20/0083/shot.png", "route": "status", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s20/0085/shot.png", "route": "status", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s20/0086/shot.png", "route": "status", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s21/0001/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["avatar"]}
+{"sample": "s21/0002/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s21/0003/shot.png", "route": "home", "dark": false, "n_missed": 5, "missed_roles": ["trend_item", "username_link", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s21/0004/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s21/0005/shot.png", "route": "explore", "dark": false, "n_missed": 1, "missed_roles": ["avatar"]}
+{"sample": "s21/0006/shot.png", "route": "explore", "dark": false, "n_missed": 3, "missed_roles": ["trend_item", "overflow_button", "overflow_button"]}
+{"sample": "s21/0015/shot.png", "route": "grok", "dark": false, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s21/0022/shot.png", "route": "home", "dark": false, "n_missed": 3, "missed_roles": ["carousel_nav", "icon_button", "avatar"]}
+{"sample": "s21/0024/shot.png", "route": "explore", "dark": false, "n_missed": 9, "missed_roles": ["tab", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "avatar", "avatar"]}
+{"sample": "s21/0025/shot.png", "route": "explore", "dark": false, "n_missed": 6, "missed_roles": ["tab", "avatar", "avatar", "avatar", "avatar", "overflow_button"]}
+{"sample": "s21/0032/shot.png", "route": "notifications", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s21/0034/shot.png", "route": "grok", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s21/0044/shot.png", "route": "home", "dark": false, "n_missed": 2, "missed_roles": ["avatar", "avatar"]}
+{"sample": "s21/0045/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["post_text"]}
+{"sample": "s21/0046/shot.png", "route": "explore", "dark": false, "n_missed": 8, "missed_roles": ["tab", "icon_button", "avatar", "avatar", "avatar", "avatar", "avatar", "avatar"]}
+{"sample": "s21/0047/shot.png", "route": "explore", "dark": false, "n_missed": 3, "missed_roles": ["avatar", "overflow_button", "overflow_button"]}
+{"sample": "s21/0055/shot.png", "route": "notifications", "dark": false, "n_missed": 2, "missed_roles": ["icon_button", "avatar"]}
+{"sample": "s21/0067/shot.png", "route": "state_more_menu", "dark": false, "n_missed": 2, "missed_roles": ["avatar", "avatar"]}
+{"sample": "s21/0068/shot.png", "route": "state_account_menu", "dark": false, "n_missed": 7, "missed_roles": ["menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "icon_button", "avatar"]}
+{"sample": "s21/0069/shot.png", "route": "state_compose_dialog", "dark": false, "n_missed": 12, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "avatar", "icon_button", "overflow_button"]}
+{"sample": "s21/0070/shot.png", "route": "state_post_overflow_menu", "dark": false, "n_missed": 15, "missed_roles": ["menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "icon_button", "icon_button", "icon_button"]}
+{"sample": "s21/0071/shot.png", "route": "state_search_focus", "dark": false, "n_missed": 10, "missed_roles": ["menu_item", "menu_item", "menu_item", "icon_button", "icon_button", "icon_button", "icon_button", "avatar", "bookmark_button", "share_button"]}
+{"sample": "s21/0072/shot.png", "route": "state_repost_menu", "dark": false, "n_missed": 10, "missed_roles": ["menu_item", "menu_item", "icon_button", "icon_button", "icon_button", "icon_button", "repost_button", "avatar", "bookmark_button", "share_button"]}
+{"sample": "s21/0073/shot.png", "route": "status", "dark": false, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s21/0074/shot.png", "route": "status", "dark": false, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s21/0075/shot.png", "route": "status", "dark": false, "n_missed": 2, "missed_roles": ["tab", "avatar"]}
+{"sample": "s21/0076/shot.png", "route": "status", "dark": false, "n_missed": 33, "missed_roles": ["post_media", "user_cell", "trend_item", "post_text", "trend_item", "nav_item", "nav_item", "nav_item", "nav_item", "nav_item", "search_input", "compose_textbox"]}
+{"sample": "s21/0078/shot.png", "route": "status", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s22/0001/shot.png", "route": "home", "dark": false, "n_missed": 2, "missed_roles": ["carousel_nav", "icon_button"]}
+{"sample": "s22/0002/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["video"]}
+{"sample": "s22/0003/shot.png", "route": "home", "dark": false, "n_missed": 3, "missed_roles": ["carousel_nav", "carousel_nav", "icon_button"]}
+{"sample": "s22/0004/shot.png", "route": "explore", "dark": false, "n_missed": 4, "missed_roles": ["tab", "icon_button", "avatar", "avatar"]}
+{"sample": "s22/0005/shot.png", "route": "explore", "dark": false, "n_missed": 6, "missed_roles": ["tab", "avatar", "avatar", "avatar", "avatar", "overflow_button"]}
+{"sample": "s22/0006/shot.png", "route": "notifications", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s22/0014/shot.png", "route": "grok", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s22/0021/shot.png", "route": "home", "dark": false, "n_missed": 3, "missed_roles": ["avatar", "avatar", "avatar"]}
+{"sample": "s22/0022/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s22/0023/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s22/0024/shot.png", "route": "home", "dark": false, "n_missed": 1, "missed_roles": ["trend_item"]}
+{"sample": "s22/0025/shot.png", "route": "explore", "dark": false, "n_missed": 3, "missed_roles": ["tab", "avatar", "avatar"]}
+{"sample": "s22/0026/shot.png", "route": "explore", "dark": false, "n_missed": 2, "missed_roles": ["avatar", "overflow_button"]}
+{"sample": "s22/0030/shot.png", "route": "notifications", "dark": false, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s22/0042/shot.png", "route": "grok", "dark": false, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s22/0052/shot.png", "route": "home", "dark": false, "n_missed": 3, "missed_roles": ["avatar", "avatar", "avatar"]}
+{"sample": "s22/0054/shot.png", "route": "home", "dark": false, "n_missed": 10, "missed_roles": ["post_container", "post_text", "username_link", "post_text", "username_link", "avatar", "carousel_nav", "carousel_nav", "avatar", "overflow_button"]}
+{"sample": "s22/0055/shot.png", "route": "home", "dark": false, "n_missed": 7, "missed_roles": ["like_button", "reply_button", "repost_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s22/0056/shot.png", "route": "explore", "dark": false, "n_missed": 8, "missed_roles": ["tab", "icon_button", "avatar", "avatar", "avatar", "avatar", "avatar", "avatar"]}
+{"sample": "s22/0057/shot.png", "route": "explore", "dark": false, "n_missed": 2, "missed_roles": ["overflow_button", "overflow_button"]}
+{"sample": "s22/0061/shot.png", "route": "notifications", "dark": false, "n_missed": 2, "missed_roles": ["tab", "icon_button"]}
+{"sample": "s22/0079/shot.png", "route": "state_more_menu", "dark": false, "n_missed": 2, "missed_roles": ["avatar", "avatar"]}
+{"sample": "s22/0080/shot.png", "route": "state_account_menu", "dark": false, "n_missed": 5, "missed_roles": ["menu_item", "menu_item", "menu_item", "menu_item", "menu_item"]}
+{"sample": "s22/0081/shot.png", "route": "state_compose_dialog", "dark": false, "n_missed": 21, "missed_roles": ["post_text", "post_text", "username_link", "carousel_nav", "carousel_nav", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button", "icon_button"]}
+{"sample": "s22/0082/shot.png", "route": "state_post_overflow_menu", "dark": false, "n_missed": 12, "missed_roles": ["menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "menu_item", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s22/0083/shot.png", "route": "state_search_focus", "dark": false, "n_missed": 8, "missed_roles": ["menu_item", "menu_item", "menu_item", "icon_button", "icon_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s22/0084/shot.png", "route": "state_repost_menu", "dark": false, "n_missed": 8, "missed_roles": ["menu_item", "menu_item", "icon_button", "icon_button", "repost_button", "bookmark_button", "share_button", "overflow_button"]}
+{"sample": "s22/0085/shot.png", "route": "status", "dark": false, "n_missed": 3, "missed_roles": ["tab", "carousel_nav", "carousel_nav"]}
+{"sample": "s22/0086/shot.png", "route": "status", "dark": false, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s22/0088/shot.png", "route": "status", "dark": false, "n_missed": 5, "missed_roles": ["post_media", "post_media", "post_media", "post_media", "tab"]}
+{"sample": "s22/0089/shot.png", "route": "status", "dark": false, "n_missed": 1, "missed_roles": ["tab"]}
+{"sample": "s22/0090/shot.png", "route": "status", "dark": false, "n_missed": 1, "missed_roles": ["tab"]}

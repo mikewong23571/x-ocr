@@ -1,0 +1,184 @@
+{
+ "onnx": "experiments/exp006_nano_final/best_onnx_fp32.onnx",
+ "n_images": 40,
+ "conf": 0.3,
+ "micro_recall": 0.0244,
+ "total_gt": 1886,
+ "total_hit": 46,
+ "per_class": [
+  {
+   "role": "nav_item",
+   "gt": 457,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "avatar",
+   "gt": 309,
+   "recall": 0.003,
+   "precision": 1.0
+  },
+  {
+   "role": "icon_button",
+   "gt": 198,
+   "recall": 0.167,
+   "precision": 0.971
+  },
+  {
+   "role": "overflow_button",
+   "gt": 104,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "tab",
+   "gt": 98,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "trend_item",
+   "gt": 74,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "user_cell",
+   "gt": 69,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "follow_button",
+   "gt": 69,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "carousel_nav",
+   "gt": 60,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "post_text",
+   "gt": 48,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "account_button",
+   "gt": 40,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "compose_button",
+   "gt": 40,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "news_card",
+   "gt": 33,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "video",
+   "gt": 30,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "username_link",
+   "gt": 29,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "post_container",
+   "gt": 29,
+   "recall": 0.207,
+   "precision": 0.136
+  },
+  {
+   "role": "post_media",
+   "gt": 28,
+   "recall": 0.214,
+   "precision": 0.316
+  },
+  {
+   "role": "search_input",
+   "gt": 24,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "bookmark_button",
+   "gt": 21,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "repost_button",
+   "gt": 21,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "share_button",
+   "gt": 21,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "like_button",
+   "gt": 21,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "reply_button",
+   "gt": 21,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "notification_item",
+   "gt": 20,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "close_button",
+   "gt": 14,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "post_button",
+   "gt": 3,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "compose_textbox",
+   "gt": 3,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "link_card",
+   "gt": 2,
+   "recall": 0.0,
+   "precision": 0
+  },
+  {
+   "role": "menu_item",
+   "gt": 0,
+   "recall": 0,
+   "precision": 0.0
+  }
+ ]
+}

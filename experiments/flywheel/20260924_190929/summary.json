@@ -1,0 +1,100 @@
+{
+ "n_samples": 681,
+ "model_only_total": 715,
+ "dom_only_total": 2199,
+ "model_only_by_role": {
+  "login_button": 4,
+  "dialog": 3,
+  "icon_button": 171,
+  "post_media": 70,
+  "bookmark_button": 18,
+  "video": 77,
+  "share_button": 9,
+  "overflow_button": 29,
+  "reply_button": 13,
+  "tab": 52,
+  "carousel_nav": 34,
+  "link_card": 4,
+  "follow_button": 10,
+  "trend_item": 26,
+  "avatar": 41,
+  "close_button": 5,
+  "compose_textbox": 4,
+  "post_text": 33,
+  "post_button": 6,
+  "username_link": 29,
+  "search_input": 5,
+  "like_button": 14,
+  "repost_button": 12,
+  "compose_button": 1,
+  "user_cell": 4,
+  "menu_item": 12,
+  "account_button": 1,
+  "post_container": 27,
+  "nav_item": 1
+ },
+ "weakest_recall": [
+  {
+   "role": "carousel_nav",
+   "missed": 277,
+   "total": 1458,
+   "recall": 0.81
+  },
+  {
+   "role": "tab",
+   "missed": 234,
+   "total": 1284,
+   "recall": 0.818
+  },
+  {
+   "role": "icon_button",
+   "missed": 594,
+   "total": 4958,
+   "recall": 0.88
+  },
+  {
+   "role": "post_media",
+   "missed": 80,
+   "total": 747,
+   "recall": 0.893
+  },
+  {
+   "role": "menu_item",
+   "missed": 96,
+   "total": 943,
+   "recall": 0.898
+  },
+  {
+   "role": "bookmark_button",
+   "missed": 61,
+   "total": 668,
+   "recall": 0.909
+  },
+  {
+   "role": "share_button",
+   "missed": 62,
+   "total": 685,
+   "recall": 0.909
+  },
+  {
+   "role": "repost_button",
+   "missed": 53,
+   "total": 685,
+   "recall": 0.923
+  },
+  {
+   "role": "video",
+   "missed": 33,
+   "total": 429,
+   "recall": 0.923
+  },
+  {
+   "role": "link_card",
+   "missed": 6,
+   "total": 84,
+   "recall": 0.929
+  }
+ ],
+ "n_hard_samples": 572,
+ "elapsed_s": 55.8
+}
