@@ -4,6 +4,32 @@
 > 运行时禁令：无 DOM / 无 Playwright / 无 OmniParser / 无 VLM——`runtime/api.py` 的 `assert_pure_runtime()` 可机器验证。
 > DOM 只在**训练期**当教师（标注来源/清洗裁判/校准器/迁移指南），运行时纯视觉。
 
+## 识别效果（截图进，结构出 · 纯视觉无 DOM）
+
+| 深色主题 · 信息流 | 浅色主题 · 信息流 |
+|---|---|
+| ![dark home feed detections](assets/hero_dark_home.jpg) | ![light home feed detections](assets/hero_light_home.jpg) |
+
+| 弹窗 / 菜单态 | 未登录 · 登录墙 |
+|---|---|
+| ![compose dialog detections](assets/hero_dialog.jpg) | ![loggedout login wall detections](assets/hero_loggedout.jpg) |
+
+**单帖感知特写**——username → 正文 → 操作行，语义一次给齐（模型直出，conf≥0.5）：
+
+![single post zoom detections](assets/hero_zoom.jpg)
+
+再往上一层就是结构化屏幕文档（`runtime/screen_doc.py`，~500 token 即可喂给 LLM agent）：
+
+```json
+{"theme": "dark", "nav": [{"name": "Home", "click": [458, 81]}, ...],
+ "posts": [{"author": "颜探长 @laoyan86 · 6h",
+             "text": "……",
+             "actions": {"reply_button": [499, 560], "like_button": [939, 560],
+                          "repost_button": [719, 560], "share_button": [1272, 560]}},
+            ...],
+ "search": {"click": [1414, 27]}, "right_rail": [{"type": "trend", "text": "..."}]}
+```
+
 ## TL;DR（最终结果，exp010）
 
 | 指标 | 数值 |
