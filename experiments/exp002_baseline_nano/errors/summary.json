@@ -1,0 +1,28 @@
+{
+ "false_positives": {
+  "nav_item": 89,
+  "avatar": 50,
+  "icon_button": 50,
+  "overflow_button": 26,
+  "like_button": 17,
+  "follow_button": 15,
+  "share_button": 12,
+  "post_container": 12,
+  "trend_item": 11,
+  "reply_button": 10,
+  "news_card": 9,
+  "compose_button": 8,
+  "post_media": 8,
+  "repost_button": 7,
+  "bookmark_button": 7,
+  "user_cell": 5,
+  "account_button": 5,
+  "username_link": 4,
+  "post_text": 3,
+  "search_input": 2
+ },
+ "false_negatives": {},
+ "small_object_misses": {},
+ "low_confidence_hits": {},
+ "n_images": 7
+}

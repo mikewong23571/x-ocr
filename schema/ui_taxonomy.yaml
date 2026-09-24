@@ -1,0 +1,217 @@
+meta:
+  target: X Desktop Web (x.com, logged-in, 1280x720 / 1440x900 / 1920x1080, light+dim+lightsout)
+  n_classes: 32
+  detection_target: bbox + class + confidence（detector 不负责文字识别）
+  sources:
+  - data/observation/*.json（home×3, explore, notifications, profile, grok, status
+    等 dump）
+  - 实测验证: reply/retweet/like/bookmark 有 data-testid; share 无 testid 用 aria-label
+classes:
+  nav_item:
+    def: 主导航链接（Home/Explore/Notifications/Follow(Grok)/DM/Grok/Profile/More menu）
+    dom: a[data-testid^='AppTabBar_'], button[data-testid='AppTabBar_More_Menu'],
+      nav[aria-label='Primary'] a[href]
+    interactive: true
+    ocr: false
+    visual_state: active/highlight
+    neg_ex:
+    - 右侧栏链接
+    - 帖内链接
+  compose_button:
+    def: 发帖入口按钮（左侧栏 Post，打开 compose dialog）
+    dom: '[data-testid=''SideNav_NewTweet_Button'']'
+    interactive: true
+    ocr: false
+    visual_state: false
+  account_button:
+    def: 左下角账号按钮（打开账号切换/登出菜单）
+    dom: '[data-testid=''SideNav_AccountSwitcher_Button'']'
+    interactive: true
+    ocr: false
+    visual_state: false
+  search_input:
+    def: 右上搜索输入框
+    dom: input[data-testid='SearchBox_Search_Input']
+    interactive: true
+    ocr: false
+    visual_state: focus/placeholder
+  compose_textbox:
+    def: 帖子编辑输入框（主页内联 + 弹窗内 contenteditable）
+    dom: '[data-testid=''tweetTextarea_0'']'
+    interactive: true
+    ocr: false
+    visual_state: focused/placeholder
+  post_button:
+    def: 发帖提交按钮（内联 tweetButtonInline + 弹窗内 tweetButton）
+    dom: '[data-testid=''tweetButtonInline''], [data-testid=''tweetButton'']'
+    interactive: true
+    ocr: false
+    visual_state: enabled/disabled
+    note: 空输入时 disabled 是关键状态；Agent 运行时禁止点击
+  post_container:
+    def: 单条帖子容器（含广告帖；完整一张视觉卡片）
+    dom: article[data-testid='tweet']
+    interactive: true
+    ocr: partial
+    visual_state: false
+    note: 广告帖（placementTracking 祖先）同类；ad_label 差异留给 v2
+  avatar:
+    def: 圆形头像（帖内/导航/用户卡；点击进入主页）
+    dom: '[data-testid^=''UserAvatar-Container-''], [data-testid=''Tweet-User-Avatar'']'
+    interactive: true
+    ocr: false
+    visual_state: false
+  username_link:
+    def: 帖子头部用户名区（显示名+@handle，点击进入主页）
+    dom: '[data-testid=''User-Name'']'
+    interactive: true
+    ocr: true
+    visual_state: false
+  post_text:
+    def: 帖子正文文本块
+    dom: '[data-testid=''tweetText'']'
+    interactive: partial
+    ocr: true
+    visual_state: expanded/collapsed（长文 Show more）
+  post_media:
+    def: 帖内静态图片（多图各自一框）
+    dom: '[data-testid=''tweetPhoto'']'
+    interactive: true
+    ocr: false
+    visual_state: false
+  video:
+    def: 视频播放器（含 GIF）
+    dom: '[data-testid=''videoPlayer''], [data-testid=''videoComponent'']'
+    interactive: true
+    ocr: false
+    visual_state: playing/paused/muted
+  link_card:
+    def: 帖内链接预览卡
+    dom: '[data-testid=''card.wrapper''], [data-testid=''testCondensedMedia'']'
+    interactive: true
+    ocr: true
+    visual_state: false
+  carousel_nav:
+    def: 多图轮播左右切换按钮
+    dom: '[data-testid=''ScrollSnap-prevButtonWrapper''] button, [data-testid=''ScrollSnap-nextButtonWrapper'']
+      button'
+    interactive: true
+    ocr: false
+    visual_state: edge-disabled
+  reply_button:
+    def: 回复按钮
+    dom: '[data-testid=''reply'']'
+    interactive: true
+    ocr: false
+    visual_state: count
+  repost_button:
+    def: 转发按钮（菜单 repost/quote）
+    dom: '[data-testid=''retweet'']'
+    interactive: true
+    ocr: false
+    visual_state: reposted（高亮）
+  like_button:
+    def: 点赞按钮
+    dom: '[data-testid=''like'']'
+    interactive: true
+    ocr: false
+    visual_state: liked（红心）
+  bookmark_button:
+    def: 收藏按钮
+    dom: '[data-testid=''bookmark'']'
+    interactive: true
+    ocr: false
+    visual_state: bookmarked（高亮）
+  share_button:
+    def: 分享按钮（无 testid）
+    dom: button[aria-label='Share post']
+    heuristic: 帖内操作行 like 之后的下一个圆形 button
+    interactive: true
+    ocr: false
+    visual_state: false
+  overflow_button:
+    def: 帖内/卡内「···」更多菜单按钮
+    dom: '[data-testid=''caret'']'
+    interactive: true
+    ocr: false
+    visual_state: false
+  icon_button:
+    def: 未归类圆形图标按钮（Show translation/Analytics/媒体控制/Grok 浮标等）
+    dom: button[aria-label]（未匹配以上类别的小型圆形按钮）
+    interactive: true
+    ocr: false
+    visual_state: varied
+    note: 兜底类；aria-label 采集进 metadata 供分析
+  tab:
+    def: 页内 tab（For you/Following/个人页 Tabs/设置项）
+    dom: '[data-testid=''pillLabel''], a[role=''tab'']'
+    interactive: true
+    ocr: true
+    visual_state: active/underline
+  menu_item:
+    def: 菜单/下拉条目（More menu / overflow 菜单 / 下拉）
+    dom: '[role=''menuitem''], [role=''option'']'
+    interactive: true
+    ocr: true
+    visual_state: danger（红字删除项）
+  close_button:
+    def: 弹窗/菜单关闭按钮（X 图标）
+    dom: button[aria-label='Close'], [data-testid='app-bar-close']
+    interactive: true
+    ocr: false
+    visual_state: false
+    max_px: 64
+  trend_item:
+    def: Explore 趋势/话题条目
+    dom: '[data-testid=''trend'']'
+    interactive: true
+    ocr: true
+    visual_state: false
+  user_cell:
+    def: 用户卡片行（关注建议/人员搜索/关注者列表）
+    dom: '[data-testid=''UserCell'']'
+    interactive: true
+    ocr: true
+    visual_state: false
+  follow_button:
+    def: 关注/正在关注按钮
+    dom: '[data-testid$=''-follow'']'
+    interactive: true
+    ocr: false
+    visual_state: following（实心灰）
+  notification_item:
+    def: 通知列表条目
+    dom: '[data-testid=''notification'']'
+    interactive: true
+    ocr: true
+    visual_state: unread
+  news_card:
+    def: 右侧栏新闻卡（premium news 模块）
+    dom: '[data-testid^=''news_sidebar_article_'']'
+    interactive: true
+    ocr: true
+    visual_state: false
+  dialog:
+    def: 模态弹窗容器（compose/确认框/图片灯箱）
+    dom: '[role=''dialog'']'
+    interactive: false
+    ocr: false
+    visual_state: false
+    note: 对 Agent 意为"页面被遮挡，需先处理弹窗"
+  login_input:
+    def: 未登录/登录流程中的账号输入框（用户名/邮箱/密码）
+    dom: input[autocomplete*='username'], input[type='password'], input[autocomplete*='email']
+    interactive: true
+    ocr: 'no'
+    visual_state: focus/placeholder
+    note: 未登录态（onboarding/login 路由）；无 data-testid，按 autocomplete/type 定位
+  login_button:
+    def: 登录墙/登录流程的继续与 OAuth 按钮（使用手机/Google/Apple 继续、下一步、登录）
+    dom: (heuristic) 登录路由下文本含 继续/Continue/Next/Log in/Sign in 的 button/[role=button]
+    interactive: true
+    ocr: 'yes'
+    visual_state: 'no'
+    note: 无 testid；extractor 内置文本启发式（仅限 onboarding/login 页面）
+state_ocr_policy:
+  ocr: 独立 runtime 组件（训练期用 DOM text span 做真值）
+  detector: 只输出 bbox/class/confidence
