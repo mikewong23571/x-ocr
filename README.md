@@ -183,3 +183,20 @@ experiments/ expXXX（config+metrics+ONNX）
 ## License 提示
 主实验 ultralytics YOLO11 为 **AGPL-3.0**（商用闭源需注意，报告已记录，YOLOX(Apache) 为备选）；OmniParser icon_detect_v3
 基于 MIT 的 YOLOv9；ScreenParse 生态 MIT/Apache-2.0。数据集为真实 X 截图，仅研究用途，不入公开仓库。
+
+## Phase 2：Layout + Regional OCR + 强基座（多小专家）
+
+在 Atomic 之上新增 **Model B Layout Parser**（11 类结构区域，DOM 合成标注）与
+**Model C Regional OCR**（PP-OCRv6-small，区域裁剪→识别，禁整屏），
+几何融合输出 structured screen（post→actions+text 层级）：
+
+| 关键结果 | 数值 |
+|---|---|
+| Layout scaling（frozen test mAP50） | GUI 先验 OmniParser @100 **0.739** vs COCO-nano 0.487（+25pt，同效数据 ~½） |
+| Regional vs 整屏 OCR | CER **0.22 vs 0.49**，计算 ~7×↓ |
+| 三模型融合 | 完整帖子重建 **1.00**，父子关联 0.839，CPU **~1.4s/帧**（纯元素 ~0.2s） |
+| 推荐 runtime | Atomic 2.6M + Layout 2.6M + OCR 5.2M ≈ **10.4M 参数 / 42-52MB** |
+
+![layout scaling curve](assets/scaling_curve.png)
+
+完整实验报告：[docs/layout_ocr_experiment.md](docs/layout_ocr_experiment.md)
