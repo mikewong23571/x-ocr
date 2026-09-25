@@ -4,6 +4,17 @@
 > OCR，测试 GUI-domain 预训练基座的数据效率，形成「Atomic + Layout + OCR」多小专家 runtime。
 > 约束遵守：无完整 Agent、无神经融合、无纯 mAP 驱动的更大检测器。
 
+## ⚠ 勘误（2026-09-25 晚）：E1/E2 数字基于带缺陷的 GT，v2 修正中
+
+用户以 DOM 真值抽查触发审计，发现 `build_labels.py` 的 `_u()` 并集函数期望 xywh 却被传入
+xyxy——六个 union 类（post_header / media_region / action_row / left_nav / right_sidebar /
+compose_bar）的 GT 系统性畸形（如 header 高 614px、bottom=x₂+y₁）。影响：
+- E1/E2 表格中这些类的 per-class AP 及总体 mAP50 在"对坏 GT 评测"下得出，v2（GT 修复，
+  compose_bar 9→267 实例）重训后本节数字将整体更新；
+- 未受影响的类（post/text_region/quoted_post/card/overlay 单元素直取）与 E3/E4 OCR 部分
+  不受此 bug 影响（E4 的 layout recall 以 v1 GT 为分母，v2 重测）。
+数据：Release `layout-data-v2`（sha256 头 f3455754d5bbea0d）。
+
 ## 实验设置
 
 - **数据（零大规模新采）**：Layout 标签全部由现有 screenshot+DOM 合成（`layout/build_labels.py`，
