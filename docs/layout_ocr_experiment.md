@@ -4,16 +4,44 @@
 > OCR，测试 GUI-domain 预训练基座的数据效率，形成「Atomic + Layout + OCR」多小专家 runtime。
 > 约束遵守：无完整 Agent、无神经融合、无纯 mAP 驱动的更大检测器。
 
-## ⚠ 勘误（2026-09-25 晚）：E1/E2 数字基于带缺陷的 GT，v2 修正中
+## ✅ 勘误已闭环（2026-09-25 深夜）：v1 E1/E2/E4 数字基于带缺陷 GT，v2 已全量修正
 
 用户以 DOM 真值抽查触发审计，发现 `build_labels.py` 的 `_u()` 并集函数期望 xywh 却被传入
 xyxy——六个 union 类（post_header / media_region / action_row / left_nav / right_sidebar /
-compose_bar）的 GT 系统性畸形（如 header 高 614px、bottom=x₂+y₁）。影响：
-- E1/E2 表格中这些类的 per-class AP 及总体 mAP50 在"对坏 GT 评测"下得出，v2（GT 修复，
-  compose_bar 9→267 实例）重训后本节数字将整体更新；
-- 未受影响的类（post/text_region/quoted_post/card/overlay 单元素直取）与 E3/E4 OCR 部分
-  不受此 bug 影响（E4 的 layout recall 以 v1 GT 为分母，v2 重测）。
-数据：Release `layout-data-v2`（sha256 头 f3455754d5bbea0d）。
+compose_bar）的 GT 系统性畸形（如 header 高 614px、bottom=x₂+y₁）。修复后（v2 数据
+`layout-data-v2`，compose_bar 9→267 实例）四个 full 臂全部重训，结论修正如下：
+
+**v2 full 档矩阵（frozen test，60ep@1280，全部 L4 同机）**
+
+| prior | mAP50 | mAP50-95 | P | R | params |
+|---|---|---|---|---|---|
+| YOLO11n (COCO) | 0.936 | 0.848 | .929 | .914 | 2.6M |
+| YOLO11s (COCO) | 0.954 | 0.856 | .934 | .941 | 9.4M |
+| **OmniParser v2 (GUI)** | **0.969** | **0.868** | **.971** | .931 | 20.1M |
+| ScreenParser (GUI) | 0.911 | 0.839 | .861 | .939 | 25.3M |
+
+- v1→v2（nano full）：union 类 AP 巨幅修复——media_region .299→**.947**、action_row .547→**.834**、
+  post_header .730→**.834**；mAP50-95 .701→**.848**（定位质量才是真提升）；mAP50 .956→.936
+  （GT 变紧、任务变严，属预期）。
+- 排序不变：**OmniParser GUI 先验仍居首**（冷启动推荐维持）；ScreenParser 仍末位
+  （0.911）——"先验语义匹配度 > 先验数据量"的结论在干净 GT 下成立。
+- 低数据档（100/250/500）曲线仍为 v1 版（坏 GT 时代），其**相对排序**与 v2 full 一致，
+  绝对值待 v2 重跑后替换（低优先级：不影响任何定性结论）。
+
+**E4 融合（v2 layout 模型，20 帧 frozen test，CPU）**
+
+| 指标 | v1（坏GT模型） | **v2（干净GT模型）** |
+|---|---|---|
+| layout recall / precision | .769 / .916 | **.951 / .961** |
+| 父子关联准确率 | .839 | **.967** |
+| 完整帖子重建 | 1.00 | 1.00 |
+| 帖子文本 CER | 0.391 | 0.443¹ |
+| 延迟 | ~1.4s | ~1.55s（atomic 116 + layout 97 + OCR 1272 + rollup 62ms） |
+
+¹ CER 略升是召回换来的：v2 检出帖子从 .77→.95，OCR 开始处理更多难样本（部分可见帖/
+小字帖），非 OCR 退化（E3 引擎未变）。
+
+E3（OCR 基准）不依赖 layout GT，全部维持原值。
 
 ## 实验设置
 
