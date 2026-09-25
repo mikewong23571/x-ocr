@@ -45,25 +45,33 @@
 难类一致为 overlay(.15-.30)、media_region(.30-.48)、action_row(.37-.90)、post_header(.42-.75)、
 text_region(.64-.87)。compose_bar 全库仅 9 实例（数据缺口，非模型问题）。
 
-## E3 — Regional OCR 基准（480 区域 / 1,289 行）
+## E3 — Regional OCR 基准（500 区域 / 1,910 行，v1.1 含 dialog 分层）
 
 | 引擎 | 模式 | CER↓ | EM↑ | 延迟 |
 |---|---|---|---|---|
-| RapidOCR v4 mobile（现行） | rec_line（行框给定） | 0.219 | 57.5% | 6.9ms/行 |
-| **PP-OCRv6-small（21.2MB rec）** | rec_line | 0.222 | **63.7%** | **6.4ms/行** |
-| v4 | det+rec_region（元素框） | 0.456 | 27.6% | 234ms/区 |
-| **v6small** | det+rec_region | **0.443** | **39.9%** | 253ms/区 |
-| v4 | 整屏 det+rec | 0.513 | 行覆盖 61.3% | 895ms/帧 |
-| v6small | 整屏 det+rec | 0.487 | 行覆盖 61.3% | 982ms/帧 |
+| RapidOCR v4 mobile（现行） | rec_line（行框给定） | 0.260 | 51.8% | 6.8ms/行 |
+| **PP-OCRv6-small（21.2MB rec）** | rec_line | **0.190** | **70.1%** | **6.3ms/行** |
+| v4 | det+rec_region（元素框） | 0.513 | 27.1% | 266ms/区 |
+| **v6small** | det+rec_region | **0.502** | **37.6%** | 266ms/区 |
+| v4 | 整屏 det+rec | 0.552 | 行覆盖 52.7% | 881ms/帧 |
+| v6small | 整屏 det+rec | 0.538 | 行覆盖 52.8% | 1022ms/帧 |
 
 - **问题3（Layout 减少 OCR 计算）：是。** 整屏一次 ~0.9s 仅覆盖 61% 行；Layout 指定 2-4 个
   文本区 × ~250ms；行框已知时 rec-only 6.4ms/行（一屏 ~20 行 ≈ 130ms，**~7× 加速**）。
-- **问题4（Regional vs 整屏）：明确更优。** CER 0.49→0.22（行级），且整屏会读出 agent 不需要
+- **问题4（Regional vs 整屏）：明确更优。** CER 0.54→0.19（行级），且整屏会读出 agent 不需要
   的全部文本（nav/头像/无关帖），token 成本同步放大。
 - 字号效应：large(≥18px) CER 0.059 ≪ small(<14px) 0.18 / mid 0.25 —— 小字是主误差源。
 - 主题：暗色 0.159 vs 亮色 0.225（暗色样本偏大标题，人群不同；无主题劣势证据）。
 - WER 不单列：中文行无空格，与 CER 同义；EM/CER 已覆盖。模型大小：v6 det 9.5MB + rec 20.3MB
   （vs v4 det+rec ~15MB）。
+- **缩放鲁棒性（`ocr/eval_scale.py`，400 行 × 0.5/0.75/1.0/1.25×）**：rec 模型内部高度归一化，
+  0.5× 也只掉 ~1.5pt（v6small 0.278→0.292，v4 0.311→0.326），1.25× 无损——**视口缩放不是
+  OCR 误差主因**，字号才是。
+- **分层表现（v6small rec-only CER）**：dialog 0.13-0.15（短、字距大，最容易）、menu_item 0.279、
+  **search_input 0.954（最差：灰字占位符，聚焦后为空——属真实 UI 语义而非模型缺陷，
+  建议运行时对 search_input 用 aria 回退或跳过 OCR）**。
+- 基准版本 ocrbench-v1.1（新增 dialog 分层 35 区域 + dataset_version 字段）；
+  暗色补采数据 manifest：`data/raw/loggedout_dark_s01/_dataset_manifest.json`。
 
 ## E4 — 三模型几何融合（20 帧 frozen test，CPU）
 
