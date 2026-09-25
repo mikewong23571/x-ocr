@@ -25,11 +25,11 @@
 |---|---|---|---|---|
 | YOLO11n (COCO, 2.6M) | 0.487 | 0.824 | 0.834 | 0.978 |
 | YOLO11s (COCO, 9.4M) | 0.690 | 0.824 | 0.895 | 0.987 |
-| ScreenParser (GUI, YOLO11-L, 25.3M) | 0.516 | —¹ | —¹ | 0.916 |
+| ScreenParser (GUI, YOLO11-L, 25.3M) | 0.516 | 0.758 | 0.802 | 0.916 |
 | **OmniParser v2 icon (GUI, YOLOv8, 20.1M)** | **0.739** | **0.895** | **0.970** | **0.981** |
 
-¹ 两次训练臂因 Colab 会话连续 6 次回收+配额僵尸未完成；两端点已锁定其「两端皆劣」结论，
-中间点不改变任何判断（补跑臂在队列中，表格将自动更新）。
+全部 16 格完成（17 行含 nano-full 的跨机复跑）。ScreenParser 全档位垫底，
+与两端点预判一致：web 页面区块语义 ≠ X 帖子结构语义。
 
 ![scaling curve](../experiments/layout_matrix/scaling_curve.png)
 
